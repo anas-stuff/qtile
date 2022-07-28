@@ -81,7 +81,7 @@ keys = [
     KeyChord([mod], "q", [
         Key([], "q", lazy.window.kill(), desc="Kill focused window")
         ]),
-    Key(["mod4"], "e", lazy.spawn("rofi -show emoji"), desc="Launch the emoji selector (rofi)"),
+    Key(["mod4"], "e", lazy.spawn("rofimoji"), desc="Launch the emoji selector (rofi)"),
     Key([mod], "space", lazy.widget["keyboardlayout"].next_keyboard(), desc="Next keyboard layout."),
     Key([mod], "Print", lazy.spawn("spectacle"), desc="Launch screen shot tool (spectacle)"),
 
